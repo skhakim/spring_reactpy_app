@@ -1,0 +1,61 @@
+# General
+*.log
+*.tmp
+*.swp
+.DS_Store
+node_modules/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+ENV/
+.env/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+.idea/
+target/
+
+# Maven
+.mvn/
+
+# VS Code
+.vscode/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Others
+*.bak
+*.old
+*.orig
+
+# Ignore frontend build artifacts
+frontend/build/
+
+# Ignore SpringDemo build artifacts
+SpringDemo/target/
+SpringDemo/.classpath
+SpringDemo/.project
+SpringDemo/.settings/
+
+# HAProxy config files
+haproxy.cfg
+haproxy*.cfg
+
+# Dockerfiles
+frontend/Dockerfile
+SpringDemo/Dockerfile
